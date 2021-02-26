@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+    }
+
 .col-md-3 img {
     width: 10rem;
     height: 10rem;
@@ -13,8 +17,8 @@
 }
 .col-md-3 .container #firstRow a{
 
-    margin-top: 9rem;
-    margin-bottom: 9rem;
+    margin-top: 11rem;
+    margin-bottom: 11rem;
     font-size: x-large;
     color: black;
     text-align: center;
@@ -24,11 +28,13 @@
     font-size: x-large;
     text-decoration: none;
     color: black;
-    text-align: center;    
+    text-align: center;  
+     
 }
 .col-md-3 .container #buttonsRow .btn {
-    margin: 1rem;
+    margin: 1.5rem;
     border: 2px solid black;
     padding: 0.7rem;
     border-radius: 0.2rem;
+    bottom: inherit;
 }

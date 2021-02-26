@@ -1,6 +1,6 @@
 body {
-
-}
+    height: 100vh;
+    }
 .col-md-9 {
     height: auto;
     background-color:#e7e6e1 ;
@@ -20,13 +20,14 @@ body {
     padding-top: 0.15rem;
     background-color: #6c757d;
     color: white;
+    margin-left: 2rem;
 }
 #imgContainer .fetchPhoto {
 
-    min-width: 20rem;
-    min-height: 20rem;
-    height: 20rem;
-    max-width: 20rem;
+    min-width: 22rem;
+    min-height: 22rem;
+    max-height: 22rem;
+    max-width: 22rem;
     border-radius: 2rem;
     
 }

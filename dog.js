@@ -22,7 +22,7 @@ class dogApiClass {
         const response = await fetch("https://dog.ceo/api/breeds/image/random");
         const data = await response.json()
             .then(dogData => {
-
+                console.log(dogData.message);
                 imgEl.innerHTML = "";
                 imgEl.src = dogData.message;
             })
