@@ -1,0 +1,35 @@
+body {
+
+}
+.col-md-9 {
+    height: auto;
+    background-color:#e7e6e1 ;
+}
+.col-md-9 .container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.getbyFeeds #selectFeeds {
+
+    border: 2px solid black;
+    width: 150px;
+    height: auto;
+    font-size: 17px;
+    padding-bottom: 0.4rem;
+    padding-top: 0.15rem;
+    background-color: #6c757d;
+    color: white;
+}
+#imgContainer .fetchPhoto {
+
+    min-width: 20rem;
+    min-height: 20rem;
+    height: 20rem;
+    max-width: 20rem;
+    border-radius: 2rem;
+    
+}
+#randomButton {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,34 @@
+.col-md-3 img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 4rem;
+}
+.col-md-3 {
+    height: auto;
+    background-color: #f7f6e7;
+    /* text-align: center;     */
+}
+.setAlign {
+    text-align: center;
+}
+.col-md-3 .container #firstRow a{
+
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+    font-size: x-large;
+    color: black;
+    text-align: center;
+}
+.col-md-3 .container #buttonsRow  {
+
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    text-align: center;    
+}
+.col-md-3 .container #buttonsRow .btn {
+    margin: 1rem;
+    border: 2px solid black;
+    padding: 0.7rem;
+    border-radius: 0.2rem;
+}
