@@ -32,9 +32,18 @@ body {
      
 }
 .col-md-3 .container #buttonsRow .btn {
-    margin: 1.5rem;
+    margin: 1rem;
     border: 2px solid black;
     padding: 0.7rem;
     border-radius: 0.2rem;
     bottom: inherit;
+}
+
+@media (min-width: 375px) {
+    .col-md-3 .container #firstRow a{
+
+        margin-top: 4.8rem;
+        margin-bottom: 4.8rem;
+    }
+
 }
