@@ -48,7 +48,7 @@ body {
 }
 
  
-/* @media (min-width: 1280px) {
+ @media (min-width: 1280px) {
     
     #imgContainer .fetchPhoto {
 
@@ -59,9 +59,9 @@ body {
         border-radius: 2rem;        
     }
 
-} */
+} 
 
-@media(min-width: 1920px) {
+@media(min-width: 2000px) {
 
      #imgContainer .fetchPhoto {
 

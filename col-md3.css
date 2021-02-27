@@ -47,7 +47,7 @@ body {
     }
 
 }
-/* @media (min-width: 1300px) {
+ @media (min-width: 1300px) {
     .col-md-3 .container #firstRow a{
 
         margin-top: 6em;
@@ -64,8 +64,8 @@ body {
         margin-bottom: 8rem;
     }
 
-} */
-@media(min-width: 1920px) {
+} 
+@media(min-width: 2000px) {
 
     .setAlign h3 {
         font-size: 35px;
