@@ -5,7 +5,7 @@ body {
 .col-md-3 img {
     width: 10rem;
     height: 10rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 .col-md-3 {
     height: auto;
@@ -42,8 +42,79 @@ body {
 @media (min-width: 375px) {
     .col-md-3 .container #firstRow a{
 
-        margin-top: 4.8rem;
-        margin-bottom: 4.8rem;
+        margin-top: 4.3rem;
+        margin-bottom: 4.3rem;
     }
+
+}
+@media (min-width: 1300px) {
+    .col-md-3 .container #firstRow a{
+
+        margin-top: 6em;
+        margin-bottom: 6rem;
+    }
+}
+@media (min-width: 1280px) {
+    .col-md-3 .container #buttonsRow .btn {
+        margin: 1rem 0.5rem 1.5rem 0.5rem;
+    }
+    .col-md-3 .container #firstRow a{
+
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+
+}
+@media(min-width: 1920px) {
+
+    .setAlign h3 {
+        font-size: 35px;
+    }    
+    .col-md-3 img {
+        width: 17rem;
+        height: 17rem;
+        margin-top: 10rem;
+    }
+    .col-md-3 .container #firstRow a{
+
+        margin-top: 15rem;
+        margin-bottom: 15rem;
+        font-size: 40px;
+    }
+    .col-md-3 .container #buttonsRow .btn {
+        margin: 3rem,1rem,3rem,1rem;
+        border: 2.5px solid black;
+        padding: 0.8rem;
+        border-radius: 0.2rem;
+        font-size: larger;   
+        
+    }    
+
+}
+@media(min-width: 2600px) {
+
+    .col-md-3 img {
+        width: 18rem;
+        height: 18rem;
+        margin-top: 15rem;
+    }
+    .col-md-3 .container #firstRow a{
+
+        margin-top: 16rem;
+        margin-bottom: 16rem;
+        font-size: 42px;
+    }
+    .col-md-3 .container #buttonsRow .btn {
+        margin: 3rem,1rem,3rem,1rem;
+        border: 2.5px solid black;
+        padding: 0.9rem;
+        border-radius: 0.2rem;
+        font-size: larger;   
+        
+    }
+    .setAlign h3 {
+        font-size: 37px;
+        border-top: rem;
+    }    
 
 }
