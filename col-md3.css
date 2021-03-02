@@ -47,14 +47,8 @@ body {
     }
 
 }
- @media (min-width: 1300px) {
-    .col-md-3 .container #firstRow a{
 
-        margin-top: 6em;
-        margin-bottom: 6rem;
-    }
-}
-@media (min-width: 1280px) {
+@media (min-width: 1580px) {
     .col-md-3 .container #buttonsRow .btn {
         margin: 1rem 0.5rem 1.5rem 0.5rem;
     }
@@ -64,7 +58,7 @@ body {
         margin-bottom: 8rem;
     }
 
-} 
+}  
 @media(min-width: 2000px) {
 
     .setAlign h3 {
